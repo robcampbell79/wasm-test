@@ -4,4 +4,8 @@ version = "0.1.0"
 authors = ["Higalgo <rhc91310@gmail.com>"]
 edition = "2018"
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
+wasm_bindgen = "0.2"
